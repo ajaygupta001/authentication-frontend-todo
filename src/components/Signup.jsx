@@ -12,7 +12,7 @@ const Signup = () => {
   const registered = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:3001/register", {
+      .post("https://authentication-backend-todo.vercel.app/register", {
         name,
         email,
         password,
